@@ -1,0 +1,43 @@
+# Global user ignore rules
+
+# OSX folder
+.DS_Store
+
+# Komodo project file
+*.kpf
+*.komodoproject
+
+# TextMate project file
+*.tmproj
+
+# Sublime text
+*.sublime-project
+*.sublime-workspace
+
+# Patch/diff artifacts.
+*.patch
+*.diff
+*.orig
+*.rej
+interdiff*.txt
+
+# emacs artifacts.
+*~
+\#*\#
+
+# Hidden files.
+.DS*
+.project
+
+# Windows links.
+*.lnk
+
+# Temporary files.
+tmp*
+
+# Codekit congig files.
+codekit-config.json
+
+# npm
+npm-debug.log
+
