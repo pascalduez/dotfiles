@@ -64,18 +64,6 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export ANDROID_SDK_ROOT="$(brew --prefix android-sdk)"
 export ANDROID_HOME="$(brew --prefix android-sdk)"
 
-# Ruby
-export PATH="$HOME/.gem/ruby/2.0.0/bin:$PATH"
-export GEM_HOME="$HOME/.gem/ruby/2.0.0/"
-export GEM_PATH="$HOME/.gem/ruby/2.0.0/"
-
-# For Sass/Compass
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-# IEctrl
-# export DEBUG='iectrl:*'
-
 
 # ==================================
 # Node, NVM
@@ -93,19 +81,9 @@ alias ll="ls -l"
 alias la="ls -a"
 alias lla="ls -l -a"
 
-# Sass / Compass
-alias becw="bundle exec compass watch"
-
-# Textmate
-# export EDITOR="$HOME/bin/mate -w"
-# alias mate="$HOME/bin/mate -w"
-
 # Sublime Text
 export EDITOR='subl -wn'
 alias subl="$HOME/bin/subl -n"
-
-# Bower
-alias bower='noglob bower'
 
 # Npm
 alias npme="npm --registry registry.npmjs.eu"
@@ -133,7 +111,7 @@ alias ipext="curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'"
 # Get local IP
 # en1 WLAN, en0 Ethernet
 alias ip="ipconfig getifaddr en1"
-# or ifconfig |grep inet
+# or ifconfig | grep inet
 
 # ==================================
 # Git
