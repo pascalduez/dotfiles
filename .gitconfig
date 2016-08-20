@@ -2,16 +2,16 @@
 	name = Pascal Duez
 	email = public@pascalduez.me
 [github]
-  user = pascalduez
+	user = pascalduez
 [core]
 	excludesfile = ~/.gitignore
 	editor = nvim
-  whitespace = cr-at-eol
+	whitespace = cr-at-eol
 [rerere]
 	enabled = true
 [diff]
-  # Optimize diffs for renamed and copied files
-  renames = copies
+	# Optimize diffs for renamed and copied files
+	renames = copies
 	mnemonicprefix = true
 	compactionHeuristic = true
 [push]
