@@ -5,31 +5,22 @@
   user = pascalduez
 [core]
 	excludesfile = ~/.gitignore
-	editor = subl -wn
-  # Always use Unix line-endings in checked out files
-  autocrlf = false
-  safecrlf = false
-  # Do not ignore letter casing in filenames on case-insensitive filesystems (like FAT on Windows)
-  ignorecase = false
+	editor = nvim
+  whitespace = cr-at-eol
+[rerere]
+	enabled = true
 [diff]
   # Optimize diffs for renamed and copied files
   renames = copies
-[alias]
-  # Create alias for properly applying patches
-  a = apply --index
-  # Create alias for creating a patch-set
-  p = format-patch --stdout
-  # rebase when pulling
-  pl = pull --rebase
-[branch]
-  # always rebase when pulling
-  # autosetuprebase = always
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	mnemonicprefix = true
+	compactionHeuristic = true
 [push]
-	default = simple
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
+	default = current
+[branch]
+	# Set up 'git pull' to rebase instead of merge
+	# autosetuprebase = always
+[rebase]
+	instructionFormat = "[%an - %ar] %s"
+[alias]
+	ra = rebase --abort
+	rc = rebase --continue

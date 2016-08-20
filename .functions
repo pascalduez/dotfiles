@@ -1,29 +1,15 @@
 
-# Local amp (Apache, MariaDB, PHP) dev environment
-
-function amp() {
-  if [ "$1" = "start" ] || [ "$1" = "stop" ]; then
-    sudo apachectl "$1"
-    mysql.server "$1"
-  fi
-  if [ "$1" = "conf" ]; then
-    subl -n /private/etc/apache2/httpd.conf /usr/local/etc/php/5.5/php.ini /usr/local/etc/my.cnf
-  fi
-  if [ "$1" = "hosts" ]; then
-    subl -n /private/etc/apache2/httpd-vhosts.conf
-  fi
-}
-
-
 # Improved `npm list`
-
 function npmls() {
   npm ls --depth=0 "$@" 2>/dev/null
 }
 
+# Weather forcast
+function meteo() {
+  curl -4 wttr.in/"$1"
+}
 
-# Force update npm packages
-
-function npmup() {
-  npm outdated --depth=0 | grep -v Package | awk '{print $1}' | xargs -I% npm install %@latest --save
+# Create a new directory and enter it
+function md() {
+  mkdir -p "$@" && cd "$@"
 }

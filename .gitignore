@@ -1,16 +1,7 @@
 # Global user ignore rules
 
-# OSX folder
-.DS_Store
-
-# Komodo project file
-*.kpf
-*.komodoproject
-
-# TextMate project file
-*.tmproj
-
-# Sublime text
+# Editor local configs.
+.vimrc.local
 *.sublime-project
 *.sublime-workspace
 
@@ -29,15 +20,9 @@ interdiff*.txt
 .DS*
 .project
 
-# Windows links.
-*.lnk
-
 # Temporary files.
 tmp*
 
-# Codekit congig files.
-codekit-config.json
-
-# npm
+# Node/npm.
 npm-debug.log
-
+.nvmrc

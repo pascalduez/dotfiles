@@ -1,0 +1,89 @@
+# ==================================
+# Aliases
+# ==================================
+
+# Reload zsh config
+alias reload='source ~/.zshrc'
+
+
+# ==================================
+# System
+# ==================================
+
+alias l="ls -lah --color"
+alias la="ls -AF --color"
+alias ll="ls -lFh --color"
+
+
+# ==================================
+# npm / node
+# ==================================
+
+alias npme="npm --registry registry.npmjs.eu"
+
+
+# ==================================
+# Misc
+# ==================================
+
+# Network
+# alias status="ip -o link show | awk '{print $2,$9}'"
+# alias status="nmcli --terse --fields DEVICE,STATE dev status"
+alias status="nmcli dev status"
+
+# HTTP traffic
+# alias sniff="sudo ngrep -W byline -d 'enp0s25' -t '^(GET|POST) ' 'tcp and port 80'"
+# alias httpdump="sudo tcpdump -i enp0s25 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+
+# ROT13-encode text. Works for decoding, too.
+alias rot13='tr a-zA-Z n-za-mN-ZA-M'
+
+# Get external IP
+alias ipext="curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'"
+
+# Get local IP
+# alias iploc="ipconfig getifaddr en1"
+# alias iploc="ifconfig | grep inet"
+alias iploc="ip addr | grep inet"
+
+
+# ==================================
+# Docker
+# ==================================
+
+alias dc='docker-compose'
+
+# Kill all running containers.
+alias dockerkillall='docker kill $(docker ps -q)'
+
+# Delete all stopped containers.
+alias dockercleanc='docker rm $(docker ps -aq)'
+
+# Delete all untagged images.
+alias dockercleani='docker rmi $(docker images -q -f dangling=true --quiet)'
+
+# Delete all stopped containers and untagged images.
+alias dockerclean='dockercleanc || true && dockercleani'
+
+# Delete old containers.
+# See http://stackoverflow.com/questions/17236796/how-to-remove-old-docker-io-containers
+alias dockercleanoldc='docker ps -a | grep "weeks ago" | awk "{print \$1}" | xargs docker rm'
+
+
+# ==================================
+# Git
+# ==================================
+
+alias glog="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
+alias gaa="git add -A ."
+alias gcam="git commit -am"
+alias gpom="git push origin master"
+alias gpod="git push origin develop"
+alias gpo="git push origin"
+alias gpt="git push --tags"
+alias gpr="git pull --rebase"
+alias gpro="git pull --rebase origin"
+alias gprom="git pull --rebase origin master"
+alias gprod="git pull --rebase origin develop"
+alias gai="git add --interactive"
+alias gs="git status --porcelain"
