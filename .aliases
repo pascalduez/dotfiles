@@ -16,10 +16,14 @@ alias ll="ls -lFh --color"
 
 
 # ==================================
-# npm / node
+# Node, npm, nvm
 # ==================================
 
-alias npme="npm --registry registry.npmjs.eu"
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
+
+alias npmeu="npm --registry https://registry.npmjs.eu"
+alias npmorg="npm --registry https://registry.npmjs.org"
 
 
 # ==================================
@@ -71,10 +75,20 @@ alias dockercleanoldc='docker ps -a | grep "weeks ago" | awk "{print \$1}" | xar
 
 
 # ==================================
+# Python
+# ==================================
+
+alias nose='nosetests -sxv'
+
+
+# ==================================
 # Git
 # ==================================
 
 alias glog="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
+alias gl="git log --oneline --decorate"
+# alias gs="git status --porcelain"
+alias gs="git status --short"
 alias gaa="git add -A ."
 alias gcam="git commit -am"
 alias gpom="git push origin master"
@@ -86,4 +100,8 @@ alias gpro="git pull --rebase origin"
 alias gprom="git pull --rebase origin master"
 alias gprod="git pull --rebase origin develop"
 alias gai="git add --interactive"
-alias gs="git status --porcelain"
+alias gbra="git branch -a"
+alias grup="git remote update --prune"
+alias gsa="git stash apply"
+alias gcf="git commit --fixup"
+alias gria="git rebase --interactive --autosquash"

@@ -21,6 +21,8 @@
 	# autosetuprebase = always
 [rebase]
 	instructionFormat = "[%an - %ar] %s"
+[merge]
+  tool = vimdiff
 [alias]
 	ra = rebase --abort
 	rc = rebase --continue
