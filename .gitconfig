@@ -1,28 +1,28 @@
 [user]
-	name = Pascal Duez
-	email = public@pascalduez.me
+  name = Pascal Duez
+  email = public@pascalduez.me
 [github]
-	user = pascalduez
+  user = pascalduez
 [core]
-	excludesfile = ~/.gitignore
-	editor = nvim
-	whitespace = cr-at-eol
+  excludesfile = ~/.gitignore
+  editor = nvim
+  whitespace = cr-at-eol
 [rerere]
-	enabled = true
+  enabled = true
 [diff]
-	# Optimize diffs for renamed and copied files
-	renames = copies
-	mnemonicprefix = true
-	compactionHeuristic = true
+  # Optimize diffs for renamed and copied files
+  renames = copies
+  mnemonicprefix = true
+  compactionHeuristic = true
 [push]
-	default = current
+  default = current
 [branch]
-	# Set up 'git pull' to rebase instead of merge
-	# autosetuprebase = always
+  # Set up 'git pull' to rebase instead of merge
+  # autosetuprebase = always
 [rebase]
-	instructionFormat = "[%an - %ar] %s"
+  instructionFormat = "[%an - %ar] %s"
 [merge]
   tool = vimdiff
 [alias]
-	ra = rebase --abort
-	rc = rebase --continue
+  ra = rebase --abort
+  rc = rebase --continue
