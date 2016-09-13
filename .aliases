@@ -50,6 +50,10 @@ alias ipext="curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'"
 # alias iploc="ifconfig | grep inet"
 alias iploc="ip addr | grep inet"
 
+# echo '{"foo": "lorem", "bar": "ipsum"}' | prettyjson
+# prettyjson toto.json
+alias prettyjson='python -m json.tool'
+
 
 # ==================================
 # Docker
