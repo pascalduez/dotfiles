@@ -18,6 +18,15 @@ alias dirnames="find . -maxdepth 1 -type d"
 
 
 # ==================================
+# Pacman
+# ==================================
+
+alias pacup="sudo pacman -Suy && sudo aura -Auy"
+# For recursively removing orphans and their configuration files.
+alias paclean="sudo pacman -Rns $(pacman -Qtdq)"
+
+
+# ==================================
 # Node, npm, nvm
 # ==================================
 
