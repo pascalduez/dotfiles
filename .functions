@@ -13,3 +13,8 @@ function meteo() {
 function md() {
   mkdir -p "$@" && cd "$@"
 }
+
+# Open in browser
+function open() {
+  xdg-open "$@"
+}
