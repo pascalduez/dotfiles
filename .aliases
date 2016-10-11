@@ -36,6 +36,7 @@ source ~/.nvm/nvm.sh
 alias nr="npm run"
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
+alias npmcf="npm --registry https://registry.npmjs.cf"
 
 
 # ==================================
