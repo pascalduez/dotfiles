@@ -24,6 +24,7 @@ alias dirnames="find . -maxdepth 1 -type d"
 alias pacup="sudo pacman -Suy && sudo aura -Auy"
 # For recursively removing orphans and their configuration files.
 alias paclean="sudo pacman -Rns $(pacman -Qtdq)"
+alias aurclean="sudo aura -Akua"
 
 
 # ==================================
