@@ -35,6 +35,10 @@ export NVM_DIR=~/.nvm
 source ~/.nvm/nvm.sh
 
 alias nr="npm run"
+alias nt="npm run test"
+alias nl="npm run lint"
+alias np="npm publish"
+
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
 alias npmcf="npm --registry https://registry.npmjs.cf"
