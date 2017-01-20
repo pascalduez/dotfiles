@@ -40,6 +40,7 @@ alias nr="npm run"
 alias nt="npm run test"
 alias nl="npm run lint"
 alias np="npm publish"
+alias ndt="npm dist-tag ls"
 
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
