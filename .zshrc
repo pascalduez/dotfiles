@@ -21,3 +21,24 @@ for file in ~/.{path,aliases,functions,extra}; do
   [ -r "$file" ] && source "$file"
 done
 unset file
+
+
+#
+# Antigen
+#
+source /usr/share/zsh/scripts/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen theme avit
+
+antigen apply
+
+
+#
+# Powerline
+#
+# if [[ -r /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+#  source /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
+# fi
