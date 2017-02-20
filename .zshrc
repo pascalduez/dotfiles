@@ -23,15 +23,19 @@ done
 unset file
 
 
+DEFAULT_USER=pascal
+
 #
 # Antigen
 #
 source /usr/share/zsh/scripts/antigen/antigen.zsh
 
 antigen use oh-my-zsh
-antigen bundle git
+# antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen theme avit
+antigen theme robbyrussell
+# antigen theme avit
+# antigen theme agnoster
 
 antigen apply
 
