@@ -28,7 +28,12 @@ DEFAULT_USER=pascal
 #
 # Antigen
 #
-source /usr/share/zsh/scripts/antigen/antigen.zsh
+
+# Arch
+# source /usr/share/zsh/scripts/antigen/antigen.zsh
+# Deb
+# source /usr/share/zsh-antigen/antigen.zsh
+
 
 antigen use oh-my-zsh
 # antigen bundle git
