@@ -30,7 +30,7 @@ DEFAULT_USER=pascal
 #
 
 # Arch
-# source /usr/share/zsh/scripts/antigen/antigen.zsh
+# source /usr/share/zsh/share/antigen.zsh
 # Deb
 # source /usr/share/zsh-antigen/antigen.zsh
 
