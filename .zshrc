@@ -22,8 +22,8 @@ for file in ~/.{path,aliases,functions,extra}; do
 done
 unset file
 
-
-DEFAULT_USER=pascal
+export EDITOR=vim
+export DEFAULT_USER=pascal
 
 #
 # Antigen
