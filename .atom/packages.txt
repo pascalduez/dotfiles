@@ -9,6 +9,7 @@ linter-pycodestyle@2.0.0
 linter-stylelint@3.7.0
 merge-conflicts@1.4.4
 minimap@4.26.7
+prettier-atom@0.21.2
 pretty-json@1.6.1
 sort-lines@0.14.0
 sublime-style-column-selection@1.7.2
