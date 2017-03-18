@@ -1,1 +1,11 @@
-export PATH="$HOME/.cargo/bin:$HOME/.node_modules/bin:$PATH"
+# export NVM_DIR=~/.nvm
+# source ~/.nvm/nvm.sh
+
+# npm bin -g
+# yarn global bin
+export npm_config_prefix=~/.node_modules
+
+PATH="$HOME/.cargo/bin:$PATH"
+PATH="$HOME/.node_modules/bin:$PATH"
+
+export PATH
