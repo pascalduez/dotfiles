@@ -28,7 +28,7 @@ alias aurclean="sudo aura -Akua"
 
 
 # ==================================
-# Node, npm, nvm
+# Node, npm, yarn, nvm
 # ==================================
 
 alias nr="npm run"
@@ -38,6 +38,13 @@ alias ntc="npm run typecheck"
 alias nv="npm run validate"
 alias np="npm publish"
 alias ndt="npm dist-tag ls"
+
+alias yr="yarn run"
+alias yt="yarn run test"
+alias yl="yarn run lint"
+alias ytc="yarn run typecheck"
+alias yv="yarn run validate"
+alias yp="yarn publish"
 
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
