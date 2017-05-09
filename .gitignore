@@ -23,6 +23,7 @@ interdiff*.txt
 # Temporary files.
 tmp*
 
-# Node/npm.
+# Node/npm/yarn.
 npm-debug.log
+yarn-error.log
 .nvmrc
