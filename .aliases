@@ -46,7 +46,7 @@ alias yl="yarn run lint"
 alias ytc="yarn run typecheck"
 alias yv="yarn run validate"
 alias yp="yarn publish"
-alias yui="yarn upgrade-interactive"
+alias yui="yarn upgrade-interactive --latest"
 
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
