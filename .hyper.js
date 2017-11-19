@@ -16,7 +16,7 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: '#00000050',
+    backgroundColor: '#000',
 
     // border color (window, tabs)
     borderColor: '#333',
@@ -73,7 +73,7 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
-    showHamburgerMenu: true,    
+    showHamburgerMenu: true,
   },
 
   // a list of plugins to fetch and install from npm
