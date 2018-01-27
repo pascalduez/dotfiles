@@ -72,13 +72,14 @@ alias status="nmcli dev status"
 alias rot13='tr a-zA-Z n-za-mN-ZA-M'
 
 # Get external IP
-alias ipext="curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'"
+# alias ipext="curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'"
 # alias ipext="dig +short myip.opendns.com @resolver1.opendns.com"
+alias ipext="curl -s https://httpbin.org/ip | jq -r '.origin?'"
 
 # Get local IP
 # alias iploc="ipconfig getifaddr en1"
 # alias iploc="ifconfig | grep inet"
-alias iploc="ip addr | grep inet"
+alias iploc="ip addr | grep -Po --color=never '(?!(inet 127.\d.\d.1))(inet \K(\d{1,3}\.){3}\d{1,3})'"
 
 # echo '{"foo": "lorem", "bar": "ipsum"}' | prettyjson
 # prettyjson toto.json
