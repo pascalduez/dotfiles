@@ -4,6 +4,7 @@
 .vimrc.local
 *.sublime-project
 *.sublime-workspace
+.vscode
 
 # Patch/diff artifacts.
 *.patch
