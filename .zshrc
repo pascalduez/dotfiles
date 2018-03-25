@@ -45,9 +45,10 @@ antigen bundle z
 
 # Load the theme.
 # antigen theme robbyrussell
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen theme https://github.com/denysdovhan/spaceship-prompt spaceship
 
 # Tell antigen that you're done.
 antigen apply
 
+# Spaceship prompt configuration
 SPACESHIP_BATTERY_SHOW=false
