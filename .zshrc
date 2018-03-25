@@ -52,3 +52,4 @@ antigen apply
 
 # Spaceship prompt configuration
 SPACESHIP_BATTERY_SHOW=false
+SPACESHIP_PACKAGE_SYMBOL=''
