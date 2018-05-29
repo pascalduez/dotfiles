@@ -16,6 +16,9 @@ alias ll="ls -lFh --color"
 
 alias dirnames="find . -maxdepth 1 -type d"
 
+# alias ip="ip --color"
+# alias ipb="ip --color --brief"
+
 
 # ==================================
 # Pacman
