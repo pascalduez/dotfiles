@@ -1,11 +1,16 @@
-# export NVM_DIR=~/.nvm
-# source ~/.nvm/nvm.sh
+# NVM configuration
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-# npm bin -g
-# yarn global bin
+# Node, npm configuration
 export npm_config_prefix=~/.node_modules
-
-PATH="$HOME/.cargo/bin:$PATH"
 PATH="$HOME/.node_modules/bin:$PATH"
+
+# Rust configuration
+PATH="$HOME/.cargo/bin:$PATH"
+
+# OPAM configuration
+# . /home/pascal/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 export PATH
