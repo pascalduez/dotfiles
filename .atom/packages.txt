@@ -1,26 +1,26 @@
-Sublime-Style-Column-Selection@1.7.4
-atom-ide-ui@0.11.2
-caniuse@0.9.2
-emmet@2.4.3
-escape-utils@0.5.3
-highlight-bad-chars@1.0.7
-hyperclick@0.1.5
-ide-flowtype@0.23.0
-ide-flowtype-coverage@1.9.2
-ide-reason@0.1.14
-language-babel@2.85.0
-language-ocaml@1.9.5
-language-reason@0.0.4
-language-rust@0.4.12
-linter@2.2.0
-linter-eslint@8.4.1
-linter-pycodestyle@2.1.3
-linter-rust@0.8.5
-linter-stylelint@4.3.0
-minimap@4.29.8
-ocaml-merlin@0.14.4
-prettier-atom@0.53.0
-sort-lines@0.18.0
-svg-preview@0.12.1
-terminal-tab@0.5.6
+[36mCommunity Packages (24)[39m /home/pascal/.atom/packages
+├── Sublime-Style-Column-Selection@1.7.4
+├── atom-ide-ui@0.13.0
+├── caniuse@0.9.2 (disabled)
+├── emmet@2.4.3
+├── escape-utils@0.5.3
+├── highlight-bad-chars@1.2.0
+├── hyperclick@0.1.5
+├── ide-flowtype@0.23.1
+├── ide-flowtype-coverage@1.9.2
+├── language-babel@2.85.0
+├── language-postcss@1.3.1
+├── language-reason@0.0.4 (disabled)
+├── language-rust@0.4.12 (disabled)
+├── linter@2.2.0 (disabled)
+├── linter-eslint@8.4.1
+├── linter-pycodestyle@2.1.3 (disabled)
+├── linter-rust@0.9.0 (disabled)
+├── linter-stylelint@4.3.2
+├── minimap@4.29.8
+├── ocaml-merlin@0.14.5 (disabled)
+├── prettier-atom@0.54.0
+├── sort-lines@0.18.0
+├── svg-preview@0.12.1
+└── terminal-tab@0.5.7
 
