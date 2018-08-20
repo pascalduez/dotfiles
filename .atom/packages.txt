@@ -7,7 +7,9 @@ highlight-bad-chars@1.2.0
 hyperclick@0.1.5
 ide-flowtype@0.23.1
 ide-flowtype-coverage@1.9.2
+ide-reason@1.0.0-beta
 language-babel@2.85.0
+language-ocaml@1.9.5
 language-postcss@1.3.1
 language-reason@0.0.4
 language-rust@0.4.12
