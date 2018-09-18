@@ -14,3 +14,5 @@ PATH="$HOME/.cargo/bin:$PATH"
 # . /home/pascal/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 export PATH
+
+export CHROME_BIN=/usr/bin/chromium-browser
