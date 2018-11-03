@@ -1,0 +1,62 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnSave: true
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+      useExperimentalUi: true
+    "atom-ide-terminal":
+      cursorBlink: true
+    use: {}
+  core:
+    autoHideMenuBar: true
+    disabledPackages: [
+      "ocaml-merlin"
+      "linter"
+    ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Fira Mono"
+    fontSize: 11
+    showIndentGuide: true
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "ebdfa1a9-c110-fa4e-5e6f-4de690e3cb44"
+  "ide-flowtype":
+    autoDownloadFlowBinaries: false
+    customFlowPath: {}
+    tryFlowBin: true
+  "ide-flowtype-coverage": {}
+  linter:
+    lintOnChange: false
+    lintOnOpen: false
+    lintPreviewTabs: false
+  "linter-eslint":
+    scopes: [
+      "source.js"
+      "source.jsx"
+      "source.js.jsx"
+      "source.babel"
+      "source.js-semantic"
+      "source.flow"
+    ]
+  "linter-ui-default":
+    hidePanelWhenEmpty: true
+    panelHeight: 178.64288330078125
+    showProviderName: true
+  minimap: {}
+  "ocaml-merlin":
+    lintAsYouType: false
+  "one-dark-ui":
+    fontSize: 11
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      respectEslintignore: false
+      showInStatusBar: true
+  welcome:
+    showOnStartup: false
