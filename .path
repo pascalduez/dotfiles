@@ -1,7 +1,6 @@
-# NVM configuration
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# fnm (Node version manager)
+PATH="$HOME/.fnm:$PATH"
+eval "`fnm env --multi`"
 
 # Node, npm configuration
 export npm_config_prefix=~/.node_modules
