@@ -1,0 +1,7 @@
+dbaeumer.vscode-eslint
+emroussel.atom-icons
+emroussel.atomize-atom-one-dark-theme
+esbenp.prettier-vscode
+flowtype.flow-for-vscode
+rafamel.subtle-brackets
+stylelint.vscode-stylelint

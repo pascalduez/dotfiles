@@ -1,0 +1,71 @@
+{
+  "editor.fontSize": 11,
+  "flow.pathToFlow": "./node_modules/.bin/flow",
+  "flow.runOnEdit": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "window.menuBarVisibility": "toggle",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+
+  // Theme
+  "breadcrumbs.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.hideCursorInOverviewRuler": true,
+  // "editor.minimap.enabled": false,
+  "editor.occurrencesHighlight": false,
+  "editor.renderIndentGuides": false,
+  "editor.roundedSelection": false,
+  "editor.scrollBeyondLastLine": false,
+  "explorer.decorations.colors": false,
+  "explorer.openEditors.visible": 0,
+  "window.zoomLevel": 0,
+  // "workbench.activityBar.visible": false,
+  "workbench.iconTheme": "atom-icons",
+  "workbench.colorTheme": "Atomize",
+  "workbench.editor.showIcons": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.matchBrackets": false,
+  "subtleBrackets.style": {
+    "borderWidth": "1px",
+    "borderColor": "#528BFF"
+  },
+  // Theme
+
+  // Prettier
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Prettier
+
+  // Stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "terminal.integrated.fontSize": 11,
+  "workbench.sideBar.location": "left",
+  "eslint.alwaysShowStatus": true,
+  // Stylelint
+
+}
