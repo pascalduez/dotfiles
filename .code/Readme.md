@@ -2,12 +2,16 @@
 ### Export
 
 ```
-code --list-extensions > .code/extensions.txt
+code --list-extensions > extensions.txt
 ```
 
 
 ### Install
 
 ```
-cat .code/extensions.txt | xargs -L 1 code --install-extension
+cat extensions.txt | xargs -L 1 code --install-extension
+```
+
+```
+cp settings.json ~/.config/Code/user/.
 ```
