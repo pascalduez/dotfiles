@@ -1,24 +1,19 @@
 {
   "editor.fontSize": 11,
   "terminal.integrated.fontSize": 11,
+  "editor.tabSize": 2,
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
   "window.menuBarVisibility": "toggle",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "editor.tabSize": 2,
-  
+
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
   "flow.runOnEdit": false,
-  
-  // ESLint
-  "eslint.alwaysShowStatus": true,
 
-  // Stylelint
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
+  // ESlint
+  "eslint.alwaysShowStatus": true,
 
   // Theme
   "breadcrumbs.enabled": false,
@@ -29,7 +24,6 @@
   "editor.renderIndentGuides": false,
   "editor.roundedSelection": false,
   "editor.scrollBeyondLastLine": false,
-  "explorer.decorations.colors": true,
   "explorer.openEditors.visible": 0,
   "window.zoomLevel": 0,
   // "workbench.activityBar.visible": false,
@@ -43,6 +37,7 @@
     "borderWidth": "1px",
     "borderColor": "#528BFF"
   },
+  // Theme
 
   // Prettier
   "prettier.prettierPath": "./node_modules/prettier",
@@ -70,5 +65,18 @@
   },
   "[njk]": {
     "editor.defaultFormatter": "eseom.nunjucks-template"
-  }
+  },
+  // Prettier
+
+  // Stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // Stylelint
+
+  "workbench.sideBar.location": "left",
+  "workbench.editor.closeEmptyGroups": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": true,
 }
