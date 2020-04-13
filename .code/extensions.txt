@@ -2,6 +2,7 @@ dbaeumer.vscode-eslint
 emroussel.atom-icons
 emroussel.atomize-atom-one-dark-theme
 esbenp.prettier-vscode
+eseom.nunjucks-template
 flowtype.flow-for-vscode
 rafamel.subtle-brackets
 sleistner.vscode-fileutils
