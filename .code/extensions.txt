@@ -4,6 +4,7 @@ emroussel.atomize-atom-one-dark-theme
 esbenp.prettier-vscode
 eseom.nunjucks-template
 flowtype.flow-for-vscode
+JounQin.vscode-mdx
 rafamel.subtle-brackets
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
