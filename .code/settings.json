@@ -45,27 +45,26 @@
   "prettier.useEditorConfig": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-  "editor.formatOnSave": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[njk]": {
     "editor.defaultFormatter": "eseom.nunjucks-template"
   },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
   // Prettier
 
   // Stylelint
@@ -79,4 +78,5 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.decorations.colors": true,
+  "explorer.confirmDelete": false
 }

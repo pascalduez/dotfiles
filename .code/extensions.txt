@@ -8,3 +8,4 @@ JounQin.vscode-mdx
 rafamel.subtle-brackets
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
+tombonnike.vscode-status-bar-format-toggle
