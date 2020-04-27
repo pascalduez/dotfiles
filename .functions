@@ -4,6 +4,11 @@ function npmls() {
   npm ls --depth=0 "$@" 2>/dev/null
 }
 
+# Yarn workspaces
+function ywr() { 
+  yarn workspace "$1" run "$2"
+}
+
 # Weather forcast
 function meteo() {
   curl -4 wttr.in/"$1"

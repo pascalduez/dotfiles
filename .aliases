@@ -52,12 +52,13 @@ alias yp="yarn publish"
 alias yui="yarn upgrade-interactive"
 alias yuil="yarn upgrade-interactive --latest"
 alias yuili="yarn upgrade-interactive --latest --ignore-engines"
+alias yw="yarn workspace"
 
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
 alias npmcf="npm --registry https://registry.npmjs.cf"
 
-
+ 
 # ==================================
 # Misc
 # ==================================
