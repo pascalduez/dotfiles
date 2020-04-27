@@ -59,6 +59,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[njk]": {
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "eseom.nunjucks-template"
   },
   "editor.formatOnSave": true,
