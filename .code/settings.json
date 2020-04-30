@@ -32,7 +32,7 @@
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "subtleBrackets.style": {
     "borderWidth": "1px",
     "borderColor": "#528BFF"
@@ -40,6 +40,11 @@
   // Theme
 
   // Prettier
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
+  //
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.requireConfig": true,
   "prettier.useEditorConfig": false,
@@ -47,25 +52,25 @@
   "prettier.trailingComma": "es5",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[njk]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "eseom.nunjucks-template"
   },
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
   // Prettier
 
   // Stylelint
