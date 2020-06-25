@@ -84,5 +84,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.decorations.colors": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false
 }
