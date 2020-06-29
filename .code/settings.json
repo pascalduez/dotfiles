@@ -1,12 +1,13 @@
 {
   "editor.fontSize": 11,
-  "terminal.integrated.fontSize": 11,
   "editor.tabSize": 2,
+  "editor.rulers": [80],
   "typescript.validate.enable": false,
   "javascript.validate.enable": false,
   "window.menuBarVisibility": "toggle",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "terminal.integrated.fontSize": 11,
 
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
@@ -85,5 +86,7 @@
   "explorer.compactFolders": false,
   "explorer.decorations.colors": true,
   "explorer.confirmDelete": false,
-  "explorer.autoReveal": false
+  "explorer.autoReveal": false,
+  "files.associations": {},
+  "workbench.editorAssociations": []
 }
