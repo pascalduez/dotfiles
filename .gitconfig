@@ -10,6 +10,9 @@
   editor = nvim
   whitespace = cr-at-eol
 
+[init]
+  defaultBranch = main
+
 [rerere]
   enabled = true
 
