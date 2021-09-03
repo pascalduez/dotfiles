@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 11,
+  "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.rulers": [80],
   "typescript.validate.enable": false,
@@ -7,8 +7,8 @@
   "window.menuBarVisibility": "toggle",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "terminal.integrated.fontSize": 11,
-  "debug.console.fontSize": 11,               
+  "terminal.integrated.fontSize": 13,
+  "debug.console.fontSize": 13,               
 
 
   // Flow
@@ -92,5 +92,7 @@
   "files.associations": {},
   "workbench.editorAssociations": [],
   "extensions.ignoreRecommendations": true,   
-  "editor.renderControlCharacters": true
+  "editor.renderControlCharacters": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": null
 }
