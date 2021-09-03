@@ -8,6 +8,8 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.fontSize": 11,
+  "debug.console.fontSize": 11,               
+
 
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
@@ -88,5 +90,7 @@
   "explorer.confirmDelete": false,
   "explorer.autoReveal": false,
   "files.associations": {},
-  "workbench.editorAssociations": []
+  "workbench.editorAssociations": [],
+  "extensions.ignoreRecommendations": true,   
+  "editor.renderControlCharacters": true
 }
