@@ -1,5 +1,4 @@
 {
-  "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.rulers": [80],
   "typescript.validate.enable": false,
@@ -10,10 +9,8 @@
   "terminal.integrated.fontSize": 13,
   "debug.console.fontSize": 13,               
 
-
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
-  "flow.runOnEdit": false,
 
   // ESlint
   "eslint.alwaysShowStatus": true,
@@ -22,35 +19,25 @@
   "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.hideCursorInOverviewRuler": true,
-  // "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
-  "editor.renderIndentGuides": false,
   "editor.roundedSelection": false,
   "editor.scrollBeyondLastLine": false,
   "explorer.openEditors.visible": 0,
-  "window.zoomLevel": 0,
-  // "workbench.activityBar.visible": false,
   "workbench.iconTheme": "atom-icons",
   "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "editor.matchBrackets": "never",
-  "subtleBrackets.style": {
-    "borderWidth": "1px",
-    "borderColor": "#528BFF"
-  },
+
   // Theme
 
   // Prettier
   "editor.formatOnSave": false,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  "formattingToggle.affects": ["formatOnPaste", "formatOnSave", "formatOnType"],
-  //
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.requireConfig": true,
-  "prettier.useEditorConfig": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -80,6 +67,7 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
+  "stylelint.validate": ["css", "scss"],
   // Stylelint
 
   "workbench.sideBar.location": "left",
@@ -90,9 +78,11 @@
   "explorer.confirmDelete": false,
   "explorer.autoReveal": false,
   "files.associations": {},
-  "workbench.editorAssociations": [],
   "extensions.ignoreRecommendations": true,   
   "editor.renderControlCharacters": true,
   "editor.accessibilitySupport": "off",
-  "editor.codeActionsOnSave": null
+  "editorconfig.generateAuto": false,
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.guides.indentation": false
 }
