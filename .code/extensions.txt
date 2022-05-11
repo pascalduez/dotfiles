@@ -1,11 +1,13 @@
+cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
+EditorConfig.EditorConfig
 emroussel.atom-icons
 emroussel.atomize-atom-one-dark-theme
 esbenp.prettier-vscode
 eseom.nunjucks-template
 flowtype.flow-for-vscode
 JounQin.vscode-mdx
+mitchdenny.ecdc
 rafamel.subtle-brackets
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
-tombonnike.vscode-status-bar-format-toggle
