@@ -21,7 +21,7 @@ alias dirnames="find . -maxdepth 1 -type d"
 
 
 # ==================================
-# Node, npm, yarn, nvm
+# Node, npm, yarn, pnpm
 # ==================================
 
 alias nr="npm run"
@@ -43,6 +43,9 @@ alias yui="yarn upgrade-interactive"
 alias yuil="yarn upgrade-interactive --latest"
 alias yuili="yarn upgrade-interactive --latest --ignore-engines"
 alias yw="yarn workspace"
+
+alias pm="pnpm"
+alias pui="pnpm up --interactive"
 
 alias npmeu="npm --registry https://registry.npmjs.eu"
 alias npmorg="npm --registry https://registry.npmjs.org"
