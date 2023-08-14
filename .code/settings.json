@@ -1,16 +1,17 @@
 {
   "editor.tabSize": 2,
-  "editor.rulers": [80],
-  "typescript.validate.enable": false,
-  "javascript.validate.enable": false,
+  "editor.rulers": [
+    80
+  ],
   "window.menuBarVisibility": "toggle",
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.fontSize": 13,
-  "debug.console.fontSize": 13,               
+  "debug.console.fontSize": 13,
 
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
+  "flow.runOnEdit": false,
 
   // ESlint
   "eslint.alwaysShowStatus": true,
@@ -23,17 +24,17 @@
   "editor.roundedSelection": false,
   "editor.scrollBeyondLastLine": false,
   "explorer.openEditors.visible": 0,
-  "workbench.iconTheme": "atom-icons",
-  "workbench.colorTheme": "Atomize",
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "editor.matchBrackets": "never",
+  "editor.bracketPairColorization.enabled": false,
 
-  // Theme
-
-  // Prettier
-  "editor.formatOnSave": false,
+  "workbench.colorTheme": "poimandres",
+  "workbench.iconTheme": "quill-icons-minimal",
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.renderWhitespace": "none",
+  "editor.minimap.renderCharacters": false,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
   "prettier.prettierPath": "./node_modules/prettier",
@@ -42,6 +43,14 @@
   "prettier.trailingComma": "es5",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -54,7 +63,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[njk]": {
@@ -68,9 +77,6 @@
   "less.validate": false,
   "scss.validate": false,
   "stylelint.validate": ["css", "scss"],
-  // Stylelint
-
-  "workbench.sideBar.location": "left",
   "workbench.editor.closeEmptyGroups": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
@@ -78,11 +84,40 @@
   "explorer.confirmDelete": false,
   "explorer.autoReveal": false,
   "files.associations": {},
-  "extensions.ignoreRecommendations": true,   
+  "extensions.ignoreRecommendations": true,
   "editor.renderControlCharacters": true,
   "editor.accessibilitySupport": "off",
   "editorconfig.generateAuto": false,
   "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontLigatures": true,
-  "editor.guides.indentation": false
+  "editor.guides.indentation": false,
+
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.jest-cache/*/**": true,
+    "**/node_modules/*/**": true,
+    "**/dist/*/**": true,
+    "**/esm/*/**": true
+  },
+  "javascript.suggest.autoImports": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.suggest.enabled": false,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": false,
+  "typescript.suggest.completeJSDocs": false,
+  "typescript.suggest.includeCompletionsForImportStatements": false,
+  "typescript.suggest.includeCompletionsWithSnippetText": false,
+  "typescript.suggest.jsdoc.generateReturns": false,
+  "typescript.suggest.objectLiteralMethodSnippets.enabled": false,
+  "typescript.suggest.paths": false,
+  "typescript.suggestionActions.enabled": false,
+  "typescript.surveys.enabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "window.commandCenter": true,
+  "javascript.validate.enable": false,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "selectline.alignment": "right",
+  "selectline.statusbarPriority": 200
 }
