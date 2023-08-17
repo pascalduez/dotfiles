@@ -4,7 +4,7 @@
 .vimrc.local
 *.sublime-project
 *.sublime-workspace
-.vscode
+# .vscode
 
 # Patch/diff artifacts.
 *.patch
@@ -27,4 +27,4 @@ tmp*
 # Node/npm/yarn.
 npm-debug.log
 yarn-error.log
-.nvmrc
+# .nvmrc
