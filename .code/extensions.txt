@@ -9,6 +9,7 @@ flowtype.flow-for-vscode
 mitchdenny.ecdc
 pmndrs.pmndrs
 rafamel.subtle-brackets
+redhat.vscode-yaml
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
 tomoki1207.selectline-statusbar

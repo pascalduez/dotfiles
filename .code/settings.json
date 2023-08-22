@@ -119,5 +119,6 @@
   "editor.minimap.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "selectline.alignment": "right",
-  "selectline.statusbarPriority": 200
+  "selectline.statusbarPriority": 200,
+  "redhat.telemetry.enabled": false
 }
