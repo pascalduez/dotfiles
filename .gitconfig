@@ -21,6 +21,7 @@
   renames = copies
   mnemonicprefix = true
   compactionHeuristic = true
+  algorithm = histogram
 
 [push]
   default = current
