@@ -27,6 +27,7 @@
   default = current
 
 [branch]
+  sort = -committerdate
   # Set up 'git pull' to rebase instead of merge
   # autosetuprebase = always
 
