@@ -2,7 +2,7 @@ antfu.icons-carbon
 cdonohue.quill-icons
 cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
-EditorConfig.EditorConfig
+editorconfig.editorconfig
 esbenp.prettier-vscode
 eseom.nunjucks-template
 flowtype.flow-for-vscode
@@ -10,6 +10,7 @@ mitchdenny.ecdc
 pmndrs.pmndrs
 rafamel.subtle-brackets
 redhat.vscode-yaml
+runem.lit-plugin
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
 tomoki1207.selectline-statusbar
