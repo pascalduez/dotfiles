@@ -27,7 +27,6 @@
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
-  "editor.matchBrackets": "never",
   "editor.bracketPairColorization.enabled": false,
 
   "workbench.colorTheme": "poimandres",
@@ -118,5 +117,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "selectline.alignment": "right",
   "selectline.statusbarPriority": 200,
-  "redhat.telemetry.enabled": false
+  "redhat.telemetry.enabled": false,
+  "flow.useBundledFlow": false,
+  "editor.matchBrackets": "never",
+  "chat.commandCenter.enabled": false,
+  "editor.stickyScroll.enabled": false
 }

@@ -1,6 +1,5 @@
 antfu.icons-carbon
 cdonohue.quill-icons
-cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 editorconfig.editorconfig
 esbenp.prettier-vscode
@@ -16,3 +15,4 @@ sleistner.vscode-fileutils
 stylelint.vscode-stylelint
 tomoki1207.selectline-statusbar
 unifiedjs.vscode-mdx
+vincaslt.highlight-matching-tag
