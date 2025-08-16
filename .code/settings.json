@@ -8,13 +8,10 @@
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.fontSize": 13,
   "debug.console.fontSize": 13,
-
+  
   // Flow
   "flow.pathToFlow": "./node_modules/.bin/flow",
-  "flow.runOnEdit": false,
-
-  // ESlint
-  "eslint.alwaysShowStatus": true,
+  "flow.useBundledFlow": false,
 
   // Theme
   "breadcrumbs.enabled": false,
@@ -28,7 +25,6 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
   "editor.bracketPairColorization.enabled": false,
-
   "workbench.colorTheme": "poimandres",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.productIconTheme": "icons-carbon",
@@ -36,6 +32,7 @@
   "editor.minimap.renderCharacters": false,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
+
   "prettier.requireConfig": true,
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -63,17 +60,18 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[njk]": {
+  "dprint.path": "./node_modules/.bin/dprint",
+  "[nunjucks]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "eseom.nunjucks-template"
+    "editor.defaultFormatter": "dprint.dprint"
   },
-  // Prettier
 
   // Stylelint
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "stylelint.validate": ["css", "scss"],
+
   "workbench.editor.closeEmptyGroups": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
@@ -103,12 +101,10 @@
   "typescript.suggest.includeAutomaticOptionalChainCompletions": false,
   "typescript.suggest.completeJSDocs": false,
   "typescript.suggest.includeCompletionsForImportStatements": false,
-  "typescript.suggest.includeCompletionsWithSnippetText": false,
   "typescript.suggest.jsdoc.generateReturns": false,
   "typescript.suggest.objectLiteralMethodSnippets.enabled": false,
   "typescript.suggest.paths": false,
   "typescript.suggestionActions.enabled": false,
-  "typescript.surveys.enabled": false,
   "typescript.tsc.autoDetect": "off",
   "window.commandCenter": true,
   "javascript.validate.enable": false,
@@ -118,7 +114,6 @@
   "selectline.alignment": "right",
   "selectline.statusbarPriority": 200,
   "redhat.telemetry.enabled": false,
-  "flow.useBundledFlow": false,
   "editor.matchBrackets": "never",
   "chat.commandCenter.enabled": false,
   "editor.stickyScroll.enabled": false

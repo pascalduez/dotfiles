@@ -1,15 +1,16 @@
 antfu.icons-carbon
 cdonohue.quill-icons
 dbaeumer.vscode-eslint
+dprint.dprint
 editorconfig.editorconfig
 esbenp.prettier-vscode
-eseom.nunjucks-template
 flowtype.flow-for-vscode
 mitchdenny.ecdc
 oxc.oxc-vscode
 pmndrs.pmndrs
 rafamel.subtle-brackets
 redhat.vscode-yaml
+ronnidc.nunjucks
 runem.lit-plugin
 sleistner.vscode-fileutils
 stylelint.vscode-stylelint
