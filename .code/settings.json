@@ -40,6 +40,10 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -118,5 +122,6 @@
   "chat.commandCenter.enabled": false,
   "editor.stickyScroll.enabled": false,
   "oxc.lint.run": "onSave",
-  "oxc.requireConfig": true
+  "oxc.requireConfig": true,
+  "workbench.editor.empty.hint": "hidden"
 }
