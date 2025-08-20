@@ -17,3 +17,4 @@ stylelint.vscode-stylelint
 tomoki1207.selectline-statusbar
 unifiedjs.vscode-mdx
 vincaslt.highlight-matching-tag
+yoavbls.pretty-ts-errors

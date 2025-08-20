@@ -116,5 +116,7 @@
   "redhat.telemetry.enabled": false,
   "editor.matchBrackets": "never",
   "chat.commandCenter.enabled": false,
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "oxc.lint.run": "onSave",
+  "oxc.requireConfig": true
 }
