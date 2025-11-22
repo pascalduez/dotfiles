@@ -1,40 +1,91 @@
 {
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
   "editor.tabSize": 2,
-  "editor.rulers": [
-    80
-  ],
-  "window.menuBarVisibility": "toggle",
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-  "terminal.integrated.fontSize": 13,
-  "debug.console.fontSize": 13,
-  
-  // Flow
-  "flow.pathToFlow": "./node_modules/.bin/flow",
-  "flow.useBundledFlow": false,
-
-  // Theme
-  "breadcrumbs.enabled": false,
+  "editor.rulers": [80],
   "editor.cursorBlinking": "blink",
   "editor.hideCursorInOverviewRuler": true,
   "editor.occurrencesHighlight": "off",
   "editor.roundedSelection": false,
   "editor.scrollBeyondLastLine": false,
-  "explorer.openEditors.visible": 0,
-  "workbench.editor.showIcons": false,
-  "workbench.startupEditor": "none",
-  "workbench.tree.renderIndentGuides": "none",
-  "editor.bracketPairColorization.enabled": false,
-  "workbench.colorTheme": "poimandres",
-  "workbench.iconTheme": "quill-icons-minimal",
-  "workbench.productIconTheme": "icons-carbon",
   "editor.renderWhitespace": "none",
   "editor.minimap.renderCharacters": false,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.accessibilitySupport": "off",
+  "editorconfig.generateAuto": false,
+  "editor.fontLigatures": true,
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": "never",
+  "editor.stickyScroll.enabled": false,
 
+  "explorer.openEditors.visible": 1,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": true,
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false,
+
+  "workbench.editor.showIcons": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.colorTheme": "poimandres",
+  "workbench.iconTheme": "quill-icons-minimal",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.empty.hint": "hidden",
+
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": true,
+  "terminal.integrated.fontSize": 13,
+  "breadcrumbs.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "debug.console.fontSize": 13,
+  "extensions.ignoreRecommendations": true,
+  
+  "telemetry.editStats.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+
+  "selectline.alignment": "right",
+  "selectline.statusbarPriority": 200,
+  "redhat.telemetry.enabled": false,
+  
+  "files.associations": {},
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.cache/*/**": true,
+    "**/.jest-cache/*/**": true,
+    "**/node_modules/*/**": true,
+    "**/dist/*/**": true,
+    "**/esm/*/**": true
+  },
+
+  "javascript.suggest.autoImports": false,
+  "javascript.validate.enable": false,
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.suggest.enabled": false,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": false,
+  "typescript.suggest.completeJSDocs": false,
+  "typescript.suggest.includeCompletionsForImportStatements": false,
+  "typescript.suggest.jsdoc.generateReturns": false,
+  "typescript.suggest.objectLiteralMethodSnippets.enabled": false,
+  "typescript.suggest.paths": false,
+  "typescript.suggestionActions.enabled": false,
+  "typescript.tsc.autoDetect": "off",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+  // Format: Prettier, Dprint
   "prettier.requireConfig": true,
   "prettier.singleQuote": true,
+  "dprint.path": "./node_modules/.bin/dprint",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.formatOnSave": true,
@@ -64,64 +115,42 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "dprint.path": "./node_modules/.bin/dprint",
   "[nunjucks]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "dprint.dprint"
   },
+  //
+
+  // Lit
+  "lit-plugin.disable": true,
+  //
 
   // Stylelint
+  "stylelint.enable": false,
+  "stylelint.stylelintPath": "./node_modules/.bin/stylelint",
+  "stylelint.packageManager": "pnpm",
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "stylelint.validate": ["css", "scss"],
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  //
 
-  "workbench.editor.closeEmptyGroups": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false,
-  "explorer.decorations.colors": true,
-  "explorer.confirmDelete": false,
-  "explorer.autoReveal": false,
-  "files.associations": {},
-  "extensions.ignoreRecommendations": true,
-  "editor.renderControlCharacters": true,
-  "editor.accessibilitySupport": "off",
-  "editorconfig.generateAuto": false,
-  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": true,
-  "editor.guides.indentation": false,
+  // ESlint
+  "eslint.enable": false,
+  //
 
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/.jest-cache/*/**": true,
-    "**/node_modules/*/**": true,
-    "**/dist/*/**": true,
-    "**/esm/*/**": true
-  },
-  "javascript.suggest.autoImports": false,
-  "typescript.disableAutomaticTypeAcquisition": true,
-  "typescript.suggest.enabled": false,
-  "typescript.suggest.includeAutomaticOptionalChainCompletions": false,
-  "typescript.suggest.completeJSDocs": false,
-  "typescript.suggest.includeCompletionsForImportStatements": false,
-  "typescript.suggest.jsdoc.generateReturns": false,
-  "typescript.suggest.objectLiteralMethodSnippets.enabled": false,
-  "typescript.suggest.paths": false,
-  "typescript.suggestionActions.enabled": false,
-  "typescript.tsc.autoDetect": "off",
-  "window.commandCenter": true,
-  "javascript.validate.enable": false,
-  "git.openRepositoryInParentFolders": "never",
-  "editor.minimap.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "selectline.alignment": "right",
-  "selectline.statusbarPriority": 200,
-  "redhat.telemetry.enabled": false,
-  "editor.matchBrackets": "never",
-  "chat.commandCenter.enabled": false,
-  "editor.stickyScroll.enabled": false,
+  // Oxc
+  "oxc.enable": false,
   "oxc.lint.run": "onSave",
   "oxc.requireConfig": true,
-  "workbench.editor.empty.hint": "hidden"
+  //
+
+  // Flow
+  "flow.enabled": false,
+  "flow.pathToFlow": "./node_modules/.bin/flow",
+  "flow.useBundledFlow": false,
+  //
 }
