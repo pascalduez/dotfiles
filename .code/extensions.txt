@@ -5,6 +5,7 @@ dprint.dprint
 editorconfig.editorconfig
 esbenp.prettier-vscode
 flowtype.flow-for-vscode
+jasonnutter.search-node-modules
 mitchdenny.ecdc
 oxc.oxc-vscode
 pmndrs.pmndrs

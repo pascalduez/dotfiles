@@ -41,7 +41,6 @@
   "window.commandCenter": true,
   "terminal.integrated.fontSize": 13,
   "breadcrumbs.enabled": false,
-  "chat.commandCenter.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "diffEditor.ignoreTrimWhitespace": false,
   "debug.console.fontSize": 13,
@@ -119,6 +118,10 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "dprint.dprint"
   },
+  "[mdx]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   //
 
   // Lit
@@ -138,10 +141,6 @@
   ],
   //
 
-  // ESlint
-  "eslint.enable": false,
-  //
-
   // Oxc
   "oxc.enable": false,
   "oxc.lint.run": "onSave",
@@ -152,5 +151,6 @@
   "flow.enabled": false,
   "flow.pathToFlow": "./node_modules/.bin/flow",
   "flow.useBundledFlow": false,
+  "search.useIgnoreFiles": false,
   //
 }
