@@ -1,4 +1,5 @@
 antfu.icons-carbon
+astro-build.astro-vscode
 cdonohue.quill-icons
 dbaeumer.vscode-eslint
 dprint.dprint
@@ -14,6 +15,7 @@ redhat.vscode-yaml
 ronnidc.nunjucks
 runem.lit-plugin
 sleistner.vscode-fileutils
+streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
 tomoki1207.selectline-statusbar
 unifiedjs.vscode-mdx

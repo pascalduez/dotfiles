@@ -54,7 +54,9 @@
   "selectline.statusbarPriority": 200,
   "redhat.telemetry.enabled": false,
   
-  "files.associations": {},
+  "files.associations": {
+    "*.flow": "javascript"
+  },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
@@ -122,10 +124,9 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  //
-
-  // Lit
-  "lit-plugin.disable": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
   //
 
   // Stylelint
@@ -153,4 +154,6 @@
   "flow.useBundledFlow": false,
   "search.useIgnoreFiles": false,
   //
+  
+  "lit-plugin.disable": true,
 }
