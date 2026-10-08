@@ -1,6 +1,5 @@
 antfu.icons-carbon
 astro-build.astro-vscode
-cdonohue.quill-icons
 dbaeumer.vscode-eslint
 dprint.dprint
 editorconfig.editorconfig
@@ -8,8 +7,10 @@ esbenp.prettier-vscode
 flowtype.flow-for-vscode
 jasonnutter.search-node-modules
 mitchdenny.ecdc
+mrorz.language-gettext
+nefrob.vscode-just-syntax
 oxc.oxc-vscode
-pmndrs.pmndrs
+peymanslh.blueberry-dark-theme
 rafamel.subtle-brackets
 redhat.vscode-yaml
 ronnidc.nunjucks

@@ -31,9 +31,7 @@
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.colorTheme": "poimandres",
-  "workbench.iconTheme": "quill-icons-minimal",
-  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorTheme": "Blueberry dark theme",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.empty.hint": "hidden",
 
@@ -45,7 +43,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "debug.console.fontSize": 13,
   "extensions.ignoreRecommendations": true,
-  
+
   "telemetry.editStats.enabled": false,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
@@ -53,9 +51,9 @@
   "selectline.alignment": "right",
   "selectline.statusbarPriority": 200,
   "redhat.telemetry.enabled": false,
-  
+
   "files.associations": {
-    "*.flow": "javascript"
+    "*.flow": "javascript",
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -64,7 +62,7 @@
     "**/.jest-cache/*/**": true,
     "**/node_modules/*/**": true,
     "**/dist/*/**": true,
-    "**/esm/*/**": true
+    "**/esm/*/**": true,
   },
 
   "javascript.suggest.autoImports": false,
@@ -90,42 +88,39 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[css]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[scss]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[nunjucks]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": "dprint.dprint"
+    "editor.defaultFormatter": "dprint.dprint",
   },
   "[mdx]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   //
 
@@ -136,10 +131,7 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "stylelint.validate": [
-    "css",
-    "scss"
-  ],
+  "stylelint.validate": ["css", "scss"],
   //
 
   // Oxc
@@ -153,7 +145,12 @@
   "flow.pathToFlow": "./node_modules/.bin/flow",
   "flow.useBundledFlow": false,
   "search.useIgnoreFiles": false,
-  //
-  
   "lit-plugin.disable": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "js/ts.updateImportsOnFileMove.enabled": "never",
+  "workbench.productIconTheme": "icons-carbon",
+  //
 }
